@@ -1,16 +1,11 @@
-# adHoc-Auto
-iOS自动打包，上传蒲公英，上传Bugly符号表，发送钉钉通知测试一气呵成
-
 # 自动打包集成
 # Version-1
 ## 加新项目集成
 1. 在keys.py中的PGYER_APP_KEY 加入项目名称及pgyer上的appkey
 2. PROJECT_INFO_LIST 加入项目名称及中文名称，pgyer下载地址，jenkins打包地址
 
-# 配置相关信息，都有说明
-1. [配置文件](./keys.py)
 ## 开始使用
-1. 进入 ./adHoc-Auto/下
+1. 进入 ./externals/bistg/adHoc-Auto/下
 2. 本地打包：以下方式都可以
   * 双击package.command文件出现打包命令行界面（注意，如果报错，可能是没有权限行动，请在命令行中执行 （chmod a+x 打包详细文件地址）后再次双击就行）
   * 在命令行中执行 sh package.sh  
