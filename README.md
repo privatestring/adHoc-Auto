@@ -17,9 +17,6 @@ iOS自动打包，上传蒲公英，上传Bugly符号表，发送钉钉通知测
   * 在命令行中执行 sh package.sh  
   * 在命令行中执行 python autoPackage.py (后面可传入参数版本号，版本号不要加beta，beta版本会自动升级)
 
-## 打包成功后异常
-打包成功后，但可能网络出故障，上传pgyer失败时，请前往http://fbi.com:8888/monkey_log/ios 下获取ipa原文件手动上传pgyer
-
 # Version-2
 ## bugly符号表优化
 新加bugly符号表分离上传，至少节省（6-8）分钟（网络比较好的时候，如果不好可以节省更多），不影响非beta版
